@@ -1,0 +1,3 @@
+# Off-by-one Error in Vector Removal during Iteration
+
+This repository demonstrates a common off-by-one error in Rust when removing elements from a vector during iteration. The `bug.rs` file contains the buggy code, while `bugSolution.rs` provides the corrected version.  The bug arises from modifying the vector's size while iterating with an index that is not adjusted accordingly.  The solution demonstrates safe ways to remove elements while preserving iteration integrity.
